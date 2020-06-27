@@ -9,6 +9,7 @@ body {
 .main-header {
 	width: 100%;
 	padding: 40px 49px;
+	box-sizing: border-box;
 	display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +23,9 @@ body {
 	font-size: 60px;
 }
 .main-header-list {
+	margin-top: 20px;
 	padding-left: 30px;
+	box-sizing: border-box;
 	font-size: 20px;
 	line-height: 1.8;
 	list-style-image: url(../img/main-header-checkicon.png);
@@ -30,6 +33,9 @@ body {
 .main-header-list li {
 	margin: 10px 0 0 0;
 	padding-left: 1%;
+}
+.main-header-list li:first-child {
+	margin: 0;
 }
 .heading-all-main {
 	display: flex;
@@ -44,6 +50,7 @@ body {
 .about-product {
 	width: 100%;
 	padding: 50px 49px;
+	box-sizing: border-box;
 	display: flex;
     justify-content: space-between;
 }
@@ -59,6 +66,7 @@ body {
 .dignity {
 	width: 100%;
 	padding: 50px 49px;
+	box-sizing: border-box;
 }
 .dignity-title {
 	text-align: center;
@@ -67,6 +75,7 @@ body {
 	width: 100%;
 	margin: 20px 0 0 0;
 	padding-left: 30px;
+	box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -97,6 +106,7 @@ body {
 .screenshots {
 	width: 100%;
 	padding: 50px 49px;
+	box-sizing: border-box;
 }
 .screenshots-title {
 	margin-bottom: 1%;
@@ -135,6 +145,7 @@ body {
 	padding: 50px;
 	padding-bottom: 30px;
 	width: 100%;
+	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -185,6 +196,7 @@ body {
 .buy-it-now {
 	width: 100%;
 	padding: 50px;
+	box-sizing: border-box;
 }
 .prices-item {
 	width: 100%;
