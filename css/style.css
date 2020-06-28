@@ -444,7 +444,7 @@ textarea[placeholder] {
 	border: 2px solid #fff;
 	border-radius: 50%;
 	box-sizing: border-box;
-	transition: 1s;
+	transition: 0.8s;
 }
 .main-footer-contact-net:nth-of-type(1) span:hover {
 	color: #fff;
